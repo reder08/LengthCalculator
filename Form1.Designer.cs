@@ -173,7 +173,7 @@
             // 
             this.txtInfo.Location = new System.Drawing.Point(146, 342);
             this.txtInfo.Name = "txtInfo";
-            this.txtInfo.Size = new System.Drawing.Size(382, 25);
+            this.txtInfo.Size = new System.Drawing.Size(334, 25);
             this.txtInfo.TabIndex = 14;
             // 
             // Form1
