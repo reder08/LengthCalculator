@@ -143,6 +143,7 @@
             this.txtFt.Name = "txtFt";
             this.txtFt.Size = new System.Drawing.Size(100, 25);
             this.txtFt.TabIndex = 10;
+            this.txtFt.KeyUp += new System.Windows.Forms.KeyEventHandler(this.txtFt_KeyUp);
             // 
             // txtYard
             // 
