@@ -135,6 +135,7 @@
             this.txtIn.Name = "txtIn";
             this.txtIn.Size = new System.Drawing.Size(100, 25);
             this.txtIn.TabIndex = 9;
+            this.txtIn.KeyUp += new System.Windows.Forms.KeyEventHandler(this.txtIn_KeyUp);
             // 
             // txtFt
             // 
