@@ -119,6 +119,7 @@
             this.txtM.Name = "txtM";
             this.txtM.Size = new System.Drawing.Size(100, 25);
             this.txtM.TabIndex = 7;
+            this.txtM.KeyUp += new System.Windows.Forms.KeyEventHandler(this.txtM_KeyUp);
             // 
             // txtKM
             // 
@@ -126,6 +127,7 @@
             this.txtKM.Name = "txtKM";
             this.txtKM.Size = new System.Drawing.Size(100, 25);
             this.txtKM.TabIndex = 8;
+            this.txtKM.KeyUp += new System.Windows.Forms.KeyEventHandler(this.txtKM_KeyUp);
             // 
             // txtIn
             // 
