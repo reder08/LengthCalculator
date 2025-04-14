@@ -17,10 +17,7 @@ namespace LengthCalculator
             InitializeComponent();
         }
 
-        // 全域變數
-        string strInput; // 字串型態的strInput變數
-        double douOutput; // double浮點數型態的douOutput變數
-      
+        
         string strInput; 
         double douOutput; 
 
@@ -28,7 +25,6 @@ namespace LengthCalculator
         {
             strInput = txtCM.Text; 
 
-            // 判斷式，如果能夠以double.TryParse成功轉型，那才做數值的計算
             
             if (double.TryParse(strInput, out douOutput) == true)
             {
@@ -42,7 +38,6 @@ namespace LengthCalculator
             }
         }
 
-            // 給予每一個輸入文字框一個「空字串」
         private void txtM_KeyUp(object sender, EventArgs e)
         {
             strInput = txtM.Text; 
